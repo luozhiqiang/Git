@@ -74,6 +74,7 @@ public class CrawlEvent
     public CrawlEvent (Crawler crawler, int id) {
         this.crawler = crawler;
         this.id = id;
+        System.out.print("");
     }
 
     /**
