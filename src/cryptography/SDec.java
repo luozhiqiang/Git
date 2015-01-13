@@ -11,7 +11,11 @@ import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
-
+/**
+ * 
+ * 
+ * 
+ * **/
 public class SDec {
 	public static void decode() {
 		try {
@@ -58,6 +62,9 @@ public class SDec {
 	}
 
 	public static void main(String[] args) {
+		
+		
+		
 		SDec.decode();
 	}
 
